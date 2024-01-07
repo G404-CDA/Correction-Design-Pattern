@@ -2,12 +2,11 @@
 
 namespace Tests\Creational;
 
-use Patterns\Creational\Singleton;
+use App\Singleton\Singleton;
 use PHPUnit\Framework\TestCase;
 
 final class SingletonTest extends TestCase 
 {
-
 
     public function testThatObjectIsSingleton()
     {

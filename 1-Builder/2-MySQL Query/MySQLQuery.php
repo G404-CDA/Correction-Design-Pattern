@@ -2,7 +2,7 @@
 
 namespace App\Builder;
 
-use Builder\Interfaces\QueryBuilderInterface;
+use App\Builder\Interfaces\QueryBuilderInterface;
 
 class MySQLQuery implements QueryBuilderInterface
 {
